@@ -64,20 +64,7 @@ Welcome to **AIML**! This repository curates the best libraries, frameworks, and
   </p>
 </div>
 
-<style>
-table {
-    width: 100%;
-    table-layout: fixed;
-}
-table th:nth-child(1) { width: 20%; }
-table th:nth-child(2) { width: 50%; }
-table th:nth-child(3) { width: 10%; }
-table th:nth-child(4) { width: 20%; }
-</style>
-
 ---
-
-
 
 ## 🛠️ LLM Training and Fine-Tuning
 
@@ -111,14 +98,14 @@ table th:nth-child(4) { width: 20%; }
 
 ## 📱 LLM Application Development Frameworks
 
-| Library            | Description                                          | Score | Alternatives             |
-|--------------------|------------------------------------------------------|-------|--------------------------|
-| **LangChain**      | Framework for developing LLM-powered applications    | 10    | HayStack, Llama Index    |
-| **Llama Index**    | Data framework for LLM applications                  | 9     | LangChain, HayStack      |
-| **HayStack**       | End-to-end LLM framework with vector search         | 9     | LangChain, Llama Index   |
-| **Prompt Flow**    | Tools to streamline LLM-based AI app development    | 8     | LangFlow, Griptape       |
-| **Griptape**       | Modular Python framework for AI-powered apps        | 7     | Weave, LangChain         |
-| **Weave**          | Toolkit for developing Generative AI applications   | 7     | Griptape, LangChain      |
+| Library | Description | Score | Alternatives |
+|:--------|:------------|:-----:|:-------------|
+| **LangChain** | Framework for developing LLM-powered applications | 10 | HayStack, Llama Index |
+| **Llama Index** | Data framework for LLM applications | 9 | LangChain, HayStack |
+| **HayStack** | End-to-end LLM framework with vector search | 9 | LangChain, Llama Index |
+| **Prompt Flow** | Tools to streamline LLM-based AI app development | 8 | LangFlow, Griptape |
+| **Griptape** | Modular Python framework for AI-powered apps | 7 | Weave, LangChain |
+| **Weave** | Toolkit for developing Generative AI applications | 7 | Griptape, LangChain |
 
 <div align="right">
   <a href="#-aiml-curated-list-of-aiml-libraries-tools-and-applications">
@@ -168,13 +155,17 @@ table th:nth-child(4) { width: 20%; }
 
 ## 🖥️ Interface
 
-| Library            | Description                                          | Score | Alternatives             |
-|--------------------|------------------------------------------------------|-------|--------------------------|
-| **Gradio**         | Create UIs for ML models                            | 9     | Streamlit, Panel        |
-| **Streamlit**      | Build data applications                             | 9     | Gradio, Panel           |
-| **Panel**          | Create interactive web apps                         | 8     | Gradio, Streamlit       |
+| Library | Description | Score | Alternatives |
+|:--------|:------------|:-----:|:-------------|
+| **Gradio** | Create UIs for ML models | 9 | Streamlit, Panel |
+| **Streamlit** | Build data applications | 9 | Gradio, Panel |
+| **Panel** | Create interactive web apps | 8 | Gradio, Streamlit |
 
-
+<div align="right">
+  <a href="#-aiml-curated-list-of-aiml-libraries-tools-and-applications">
+    <img src="https://img.shields.io/badge/Back_to_top-⬆️-blue" alt="Back to top" />
+  </a>
+</div>
 
 ## 🧩 Low Code
 
@@ -184,6 +175,11 @@ table th:nth-child(4) { width: 20%; }
 | **LangFlow**       | UI for LangChain                                    | 8     | Flowise, Chainlit       |
 | **Chainlit**       | Build Python LLM apps                               | 8     | Flowise, LangFlow       |
 
+<div align="right">
+  <a href="#-aiml-curated-list-of-aiml-libraries-tools-and-applications">
+    <img src="https://img.shields.io/badge/Back_to_top-⬆️-blue" alt="Back to top" />
+  </a>
+</div>
 
 
 ## ⚡ Cache
@@ -193,6 +189,11 @@ table th:nth-child(4) { width: 20%; }
 | **LLMCache**       | Caching for LLM calls                               | 7     | Redis, Memcached        |
 | **Semantic Cache** | Cache LLM responses                                 | 7     | LLMCache, Redis         |
 
+<div align="right">
+  <a href="#-aiml-curated-list-of-aiml-libraries-tools-and-applications">
+    <img src="https://img.shields.io/badge/Back_to_top-⬆️-blue" alt="Back to top" />
+  </a>
+</div>
 
 
 ## 📚 LLM RAG (Retrieval-Augmented Generation)
@@ -246,6 +247,11 @@ table th:nth-child(4) { width: 20%; }
 | **TorchServe**     | Model serving framework for PyTorch                | 8     | Ray Serve, BentoML      |
 | **Mosec**          | High-performance model serving framework            | 7     | Ray Serve, TorchServe   |
 
+<div align="right">
+  <a href="#-aiml-curated-list-of-aiml-libraries-tools-and-applications">
+    <img src="https://img.shields.io/badge/Back_to_top-⬆️-blue" alt="Back to top" />
+  </a>
+</div>
 
 ## 📜 LLM Data Extraction
 
@@ -291,23 +297,32 @@ table th:nth-child(4) { width: 20%; }
   </a>
 </div>
 
-## 📊 LLM Evaluation
+## 📋 LLM Structured Outputs
 
 | Library | Description | Score | Alternatives |
 |:--------|:------------|:-----:|:-------------|
-| **Ragas** | Framework for evaluating RAG systems | 8 | DeepEval, Trulens |
-| **DeepEval** | Evaluation framework for LLMs | 7 | Ragas, Trulens |
-| **Giskard** | Testing framework for ML models | 8 | DeepEval, Ragas |
-| **Trulens** | Evaluation and tracking for LLM experiments | 8 | Ragas, DeepEval |
-| **PromptBench** | Unified evaluation framework for LLMs | 7 | Lighteval, EvalPlus |
-| **LangTest** | 60+ test types for comparing LLMs on accuracy/bias | 8 | Giskard, Ragas |
-| **EvalPlus** | Rigorous evaluation framework for LLM4Code | 7 | PromptBench, Lighteval |
-| **FastChat** | Platform for training/serving/evaluating chatbots | 8 | Evals, Trulens |
-| **judges** | Small library of LLM judges for evaluation | 6 | Trulens, Ragas |
-| **Evals** | Framework for evaluating LLMs with benchmarks | 8 | FastChat, Trulens |
-| **AgentEvals** | Evaluators and utilities for agent performance | 7 | Trulens, Ragas |
-| **LLMBox** | Unified training and evaluation pipelines | 7 | Ludwig, DeepEval |
-| **Opik** | End-to-end LLM development platform with evaluation | 8 | LangSmith, Trulens |
+| **Instructor** | Python library for structured outputs using Pydantic | 8 | Outlines, Guidance |
+| **Guidance** | Language for controlling LLMs | 8 | LMQL, DSPy |
+| **LMQL** | Programming language for LLM interaction | 8 | Guidance, DSPy |
+| **Outlines** | Type-safe structured generation with LLMs | 7 | Instructor, Guidance |
+| **Jsonformer** | Structured JSON generation with LLMs | 7 | Instructor, Outlines |
+| **Guardrails** | Add structure, type safety, and security to LLM outputs | 8 | Instructor, NeMo Guardrails |
+
+<div align="right">
+  <a href="#-aiml-curated-list-of-aiml-libraries-tools-and-applications">
+    <img src="https://img.shields.io/badge/Back_to_top-⬆️-blue" alt="Back to top" />
+  </a>
+</div>
+
+## 🔍 LLM Evaluation
+
+| Library | Description | Score | Alternatives |
+|:--------|:------------|:-----:|:-------------|
+| **Ragas** | Framework for RAG evaluation | 8 | DeepEval, Trulens |
+| **DeepEval** | Evaluation framework for LLM applications | 8 | Ragas, Trulens |
+| **Trulens** | Evaluate and track LLM-powered applications | 8 | Ragas, DeepEval |
+| **Giskard** | Testing framework for LLM applications | 7 | DeepEval, Ragas |
+| **EvalPlus** | Comprehensive evaluation of code LLMs | 7 | DeepEval, Giskard |
 
 <div align="right">
   <a href="#-aiml-curated-list-of-aiml-libraries-tools-and-applications">
@@ -346,22 +361,6 @@ table th:nth-child(4) { width: 20%; }
 | **DSPy** | Framework for programming language models | 9 | Guidance, LMQL |
 | **Py-priompt** | Prompt design library | 6 | Promptify, PromptSource |
 | **Promptimizer** | Prompt optimization library | 6 | DSPy, Guidance |
-
-<div align="right">
-  <a href="#-aiml-curated-list-of-aiml-libraries-tools-and-applications">
-    <img src="https://img.shields.io/badge/Back_to_top-⬆️-blue" alt="Back to top" />
-  </a>
-</div>
-
-## 📋 LLM Structured Outputs
-
-| Library | Description | Score | Alternatives |
-|:--------|:------------|:-----:|:-------------|
-| **Instructor** | Python library for structured outputs using Pydantic | 8 | Outlines, Guidance |
-| **Outlines** | Type-safe structured generation | 8 | Instructor, Guidance |
-| **Guidance** | Language for controlling text generation | 8 | LMQL, DSPy |
-| **LMQL** | Programming language for LLM interaction | 8 | Guidance, DSPy |
-| **XGrammar** | Efficient, flexible structured generation library | 7 | Instructor, LMQL |
 
 <div align="right">
   <a href="#-aiml-curated-list-of-aiml-libraries-tools-and-applications">
@@ -421,6 +420,7 @@ table th:nth-child(4) { width: 20%; }
   </a>
 </div>
 
+
 ## 🤝 Contributing
 
 We welcome contributions! Please follow these steps:
@@ -434,6 +434,7 @@ We welcome contributions! Please follow these steps:
   </a>
 </div>
 
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -442,4 +443,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
   <a href="#-aiml-curated-list-of-aiml-libraries-tools-and-applications">
     <img src="https://img.shields.io/badge/Back_to_top-⬆️-blue" alt="Back to top" />
   </a>
-This project is licensed under the MIT License - see the LICENSE file for details.
+</div>
+```
+
+
