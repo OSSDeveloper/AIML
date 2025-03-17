@@ -29,22 +29,22 @@ Welcome to **AIML**! This repository curates the best libraries, frameworks, and
   <h2>🔍 Quick Navigation</h2>
   
   <p align="center">
-    <a href="#-llm-training-and-fine-tuning">🛠️ Training & Fine-Tuning</a> •
+    <a href="#️-llm-training-and-fine-tuning">🛠️ Training & Fine-Tuning</a> •
     <a href="#-llm-application-development-frameworks">📱 Development Frameworks</a> •
     <a href="#-multi-api-access">🌐 Multi API Access</a> •
-    <a href="#-routers">🛤️ Routers</a>
+    <a href="#️-routers">🛤️ Routers</a>
   </p>
   
   <p align="center">
     <a href="#-memory">🧠 Memory</a> •
-    <a href="#-interface">🖥️ Interface</a> •
+    <a href="#️-interface">🖥️ Interface</a> •
     <a href="#-low-code">🧩 Low Code</a> •
     <a href="#-cache">⚡ Cache</a>
   </p>
   
   <p align="center">
     <a href="#-llm-rag">📚 RAG</a> •
-    <a href="#-llm-inference">⚙️ Inference</a> •
+    <a href="#️-llm-inference">⚙️ Inference</a> •
     <a href="#-llm-serving">🌍 Serving</a> •
     <a href="#-llm-data-extraction">📜 Data Extraction</a>
   </p>
