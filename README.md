@@ -365,7 +365,23 @@ We welcome contributions! Please follow these steps:
 - Include all required fields (description, score, alternatives)
 - Add GitHub stats badges where applicable
 - Keep descriptions concise and informative
-- Maintain alphabetical ordering within categories
+
+## 📝 TODO
+
+1. **Library Links Enhancement**
+   - [ ] Convert all library names to clickable links
+   - [ ] Ensure links open in new tab using `target="_blank"` attribute
+   - [ ] Format: `<a href="https://github.com/org/repo" target="_blank">LibraryName</a>`
+
+2. **Score Automation**
+   - [ ] Develop script to calculate score based on GitHub statistics:
+     - Stars count
+     - Issues/PRs ratio
+     - Last commit recency
+     - Release frequency
+     - Contributors count
+   - [ ] Automate score updates using GitHub Actions
+   - [ ] Add methodology documentation for score calculation
 
 <div align="right">
   <a href="#-aiml-curated-list-of-aiml-libraries-tools-and-applications">
